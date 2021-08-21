@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #E7EAF2;
+    height: 700px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 28px;
+  }
+  
+  .calculator {
+    text-align: center;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #F2F3F7;
+    -webkit-box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.8),
+      5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.8),
+      5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 100px;
+  }
+  
+  .output {
+    overflow: hidden;
+    color: #3B80FD;
+    font-size: 48pt;
+    height: 15%;
+    padding: 10px;
+    text-align: right;
+    border-radius: 20px;
+    -webkit-box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.8),
+      inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.8),
+      inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border: 0 none;
+    background: #e9effb;
+    margin-bottom: 20px;
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+  }
+  
+  .button {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+    padding: 5%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 80px;
+    margin: 10px;
+    color: #202847;
+    border-radius: 20px;
+    -webkit-box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.8),
+      5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.8),
+      5px 5px 10px rgba(0, 0, 0, 0.1);
+    border: 0 none;
+    background: #F2F3F7;
+    height: 80px;
+    font-weight: 300;
+  }
+  
+  .button:active {
+    -webkit-box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.8),
+      inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.8),
+      inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+    color: #3B80FD;
+  }
+
+  .operation{
+      background: #3B80FD;
+      color: #fff;
+  }
+  
+  .double {
+    width: 70%;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .calculator {
+      width: 350px;
+      font-size: 25px;
+      height: 600px;
+    }
+    .button {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .output {
+      width: 350px;
+      height: 100px;
+    }
+  }
+  
